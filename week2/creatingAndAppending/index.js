@@ -32,6 +32,10 @@ var li3 = document.createElement('li');
 li3.textContent = 'World';
 
 
+siteOl.innerHTML += li1.outerHTML + li2.outerHTML + li3.outerHTML;
+
+/*
 document.body.append(li1);
 document.body.append(li2);
 document.body.append(li3);
+*/

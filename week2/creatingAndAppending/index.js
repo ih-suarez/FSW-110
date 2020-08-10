@@ -1,5 +1,5 @@
 
-// Header 
+    // Header 
 
 
 var siteHeader = document.createElement('h1');
@@ -7,7 +7,7 @@ siteHeader.textContent = 'Welcome to my JS site';
 document.body.append(siteHeader);
 
 
-// Paragraph
+    // Paragraph
 
 
 var sitePa = document.createElement('p');
@@ -15,7 +15,7 @@ sitePa.textContent = 'All this was created with Javascript';
 document.body.append(sitePa);
 
 
-// Ordered list
+    // Ordered list
 
 
 var siteOl = document.createElement('ol');

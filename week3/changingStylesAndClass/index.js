@@ -1,4 +1,4 @@
-//  h2 list
+//  h2 List
 
 
 var arrayList = [
@@ -9,12 +9,17 @@ var arrayList = [
 ]
 
 
+// creating Unorganized List
+
 
 var list = document.createElement('ul');
     document.body.append(list);
 
 var listNames = document.createElement('li');
     listNames.textContent = h2;
+
+    
+// For Loop arrayList
 
 
 for(var i = 0; i < arrayList.length; i++){
@@ -31,7 +36,7 @@ for(var i = 0; i < arrayList.length; i++){
 
 
 
-// adding Class name
+// Adding Class Name
 
     
 document.querySelector('ul').classList.add('border');

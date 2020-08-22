@@ -73,19 +73,3 @@ function changeColor(keyCode) {
         console.log('Error')
     }
 };
-
-
-
-//   if (e.which == 66) {
-//     // key 13 is pressed
-//   }
-//   else if (e.which == 82) {
-//     // key 14 is pressed
-//   }
-//   else if (e.which == 89){
-//   }
-//   else if (e.which == 71){
-//   }
-//   else if (e.which == 79){
-//   } 
-//   else (console.log('Error'))

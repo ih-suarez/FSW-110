@@ -75,11 +75,11 @@ var siteheader = document.createElement('h1');
 */
    // Box
    var div2 = document.createElement('div');
-   document.body.append(div2);
-   div2.style.backgroundColor = 'lightblue';
-   div2.classList.add('boxes');
-   div2.setAttribute('id', 'subtraction');
-   div2.classList.add('boxes');
+       document.body.append(div2);
+       div2.style.backgroundColor = 'lightblue';
+       div2.classList.add('boxes');
+       div2.setAttribute('id', 'subtraction');
+       div2.classList.add('boxes');
    // Heading
    var div2Header = document.createElement('h5');
        div2Header.textContent = 'Subtraction';
@@ -128,11 +128,11 @@ var siteheader = document.createElement('h1');
 */
    // Box
    var div3 = document.createElement('div');
-   document.body.append(div3);
-   div3.style.backgroundColor = 'yellow';
-   div3.classList.add('boxes');
-   div3.setAttribute('id', 'multiplication');
-   div3.classList.add('boxes');
+       document.body.append(div3);
+       div3.style.backgroundColor = 'yellow';
+       div3.classList.add('boxes');
+       div3.setAttribute('id', 'multiplication');
+       div3.classList.add('boxes');
    // Heading
    var div3Header = document.createElement('h5');
        div3Header.textContent = 'Multiplication';

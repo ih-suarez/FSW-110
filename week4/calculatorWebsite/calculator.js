@@ -123,12 +123,9 @@ var siteheader = document.createElement('h1');
            document.getElementById('resultOfSub').textContent =
                subtracting(parseInt(document.getElementById('subtractionNum1').value), parseInt(document.getElementById('subtractionNum2').value));
        });
-
-
 /*
     Multiplication
 */
-
    // Box
    var div3 = document.createElement('div');
    document.body.append(div3);

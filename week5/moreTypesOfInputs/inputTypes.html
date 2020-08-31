@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="inputTypes.css">
+    </head>
+    <body> 
+    <main>
+        <div id="header" class="headerStyle">
+            <h1>Broke No Coach Inc.</h1>
+            <h5>We Find You First Class Tickets At All Time Low Prices, Locations Change Every Day</h5>
+        </div>
+            <div id="flyerForm" class="logInStyle">
+                <form name="flyerInformation">
+                    <h3>Please Provide Us With Some Information</h3>
+                    <div id="firstName">
+                        <span>First Name: </span> 
+                        <input name="firstName" type="text" placeholder="First Name" required/>
+                    </div>
+                    <div id="lastName">
+                        <span>Last Name: </span>
+                        <input name="lastName" type="text" placeholder="Last Name" required/>
+                    </div>
+                    <div id="age">
+                        <span>Age: </span>
+                        <input name="age" type="number" placeholder="age" required/>
+                    </div>
+                    <div id="gender">
+                        <span>Gender</span>
+                        Male: <input name="gender" type="radio" placeholder="Gender" value="Male" required/>
+                        Female: <input name="gender" type="radio" placeholder="Gender" value="Female" required/>
+                    <div id="location">
+                        <span>Select Location: </span>
+                        <select name="city" required>
+                            <option selected disabled>Locations</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="Los angeles">Los Angeles</option>
+                            <option value="Bali">Bali</option>
+                            <option value="Tokyo">Tokyo</option>
+                        </select> 
+                    </div>  
+                    <div id="dietRestrictions">
+                            <span>Dietary Restrictions: </span>
+                            Dary <input name="diet" type="checkbox" value="Dary"/>
+                            Peanuts <input name="diet" type="checkbox" value="Peanuts"/>
+                            Gluten Free <input name="diet" type="checkbox" value="Gluten Free"/>
+                            None  <input name="diet" type="checkbox" value="None"/>
+                    </div>
+                    <button type="submit">No Coach Go</button>
+                </form>    
+            </div>
+        </main>
+        <script src="inputTypes.js"></script>
+    </body>
+</html>

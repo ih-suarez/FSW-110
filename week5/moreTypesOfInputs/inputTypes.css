@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url("https://images.unsplash.com/photo-1525094760342-7a8ad61c41e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2021&q=80");
+    background-size: cover;
+}
+main{
+    display: inline-block;
+    padding: 50px;
+    box-shadow: inset 5px 5px 15px 0 black;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    width: 380px;
+    height: fit-content;
+    align-content: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 150px;
+    
+}
+.logInStyle{
+    border:0px solid lightgray;
+    border-radius: 10px;
+    box-shadow:inset 5px 5px 15px grey;
+    background-color: lightgray;
+    height: fit-content;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+#firstName, #lastName, #age, #gender, #location, #dietRestrictions{
+    margin: 1em 0;
+}
+

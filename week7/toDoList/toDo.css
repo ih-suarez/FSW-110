@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    border: 2px solid rgb(0, 71, 179);
+    background-color: rgb(0, 71, 179);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    margin: 100px 50px 100px;
+    padding: 30px 0px 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        margin: 50px 30px 50px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body {
+        margin: 40px 30px 40px;
+    }
+}
+
+.displayedReminder {
+    border: 2px solid ivory;
+    background-color: ivory;
+    box-shadow: 5px 5px 15px grey;
+    padding: 40px 10px 40px;
+    width: 185px;
+    text-align: center;
+    margin: 50px 50px 50px;
+}
+
+@media only screen and (min-width: 768px){
+    .displayedReminder {
+        width: 500px;
+    }
+}
+
+.toDoDisplay {
+    width: 100%;
+    min-height: 40vh;
+
+}
+@media only screen and (max-width: 320px){
+    .toDoDisplay {
+        min-height: 47vh;
+    }
+}
+
+
